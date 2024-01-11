@@ -1,0 +1,10 @@
+SORTING:
+bubble sort
+selection sort
+insertion sort
+merge sort
+queue sort
+counting sort
+DNF
+heap sort
+cycle sort
