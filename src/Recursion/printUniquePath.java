@@ -21,6 +21,7 @@ public class printUniquePath {
             return;
         UniquePath(m,n,row+1,col,ans+"V");
         UniquePath(m,n,row,col+1,ans+"H");
+        UniquePath(m,n,row+1,col+1,ans+"D");
     }
 }
 

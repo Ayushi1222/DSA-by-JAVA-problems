@@ -14,8 +14,9 @@ public class boardPath_dice {
         }
         if(c>n)
             return;
-        printPath(n,c+1,ans+1);
-        printPath(n,c+2,ans+2);
-        printPath(n,c+3,ans+3);
+        for(int i=1;i<=3;i++)
+        printPath(n,c+i,ans+i);
+//        printPath(n,c+2,ans+2);
+//        printPath(n,c+3,ans+3);
     }
 }
