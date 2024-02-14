@@ -9,7 +9,6 @@ public class unionOfTwoArrays {
         List<Integer> ls = new ArrayList<>();
         int i=0;
         int j=0;
-//        int k=0;
         while (i<a.length && j<b.length)
         {
             if(a[i]<b[j])
