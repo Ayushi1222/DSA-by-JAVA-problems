@@ -25,7 +25,7 @@ public class RandomizedQuickSort {
     {
         //Random index generate karne se average case TC nlogn.
         Random rn=new Random();
-        int ri=rn.nextInt((j-i+1)+i);
+        int ri=rn.nextInt((j-i+1))+i;
         System.out.println(ri);
         int t=a[ri];
         a[ri]=a[j];
