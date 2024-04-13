@@ -38,15 +38,19 @@ public class Stack {
             System.out.print(arr[j]+" ");
         }
     }
-    public boolean isEmpty(){
-
+    public boolean isEmpty()
+    {
         return i==0;
     }
-    public int size(){
+    public int size()
+    {
+
         return i;
     }
-    public boolean isFull(){
+    public boolean isFull()
+    {
         return i==arr.length;
+
     }
 
 }
