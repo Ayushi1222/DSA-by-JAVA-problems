@@ -39,21 +39,20 @@ public class bookAllocation_CodeSkiller {
     {
         int s=1;
         int readpages=0;
-        int i=0;
-        while(i<pg.length)
+        for(int i=0;i<pg.length;i++)
         {
             if(readpages+pg[i]<=mid)
             {
                 readpages+=pg[i];
-                i++;
             }
             else
             {
                 s++;
+                if(s==nos)
+                    return true;
                 readpages=0;
             }
-            if(s==nos)
-                return true;
+
         }
         return false;
     }
