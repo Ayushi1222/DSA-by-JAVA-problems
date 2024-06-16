@@ -5,7 +5,8 @@ public class Queen {
         int n=4;//no. of boards
         int tq=2;//total queen
         boolean[] board = new boolean[n];
-        combination(board, tq,0,"",0);
+        permutation(board, tq,0,"");
+//        combination(board, tq,0,"",0);
     }
 
     public static void permutation(boolean[] board, int tq, int qpsf, String ans)  //qpsf=queen placed so far.
@@ -15,6 +16,7 @@ public class Queen {
             System.out.println(ans);
             return;
         }
+        System.out.println(ans);
         for(int i=0;i< board.length;i++)
         {
             if(board[i]==false)

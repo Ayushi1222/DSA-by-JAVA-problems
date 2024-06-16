@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class sieveOfEratosthenes {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        int n=s.nextInt();
+        int n=s.nextInt();// n tk ke saare prime
         sieve(n);
     }
     // false= prime

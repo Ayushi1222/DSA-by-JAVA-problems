@@ -3,12 +3,15 @@ import java.util.*;
 public class infiniteCoin {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
-        int n=s.nextInt();
-        int[] a=new int[n];
-        for(int i=0;i<n;i++)
-            a[i]=s.nextInt();
-        int amount=s.nextInt();
-        coinCombination(a,amount,"",0);
+//        int n=s.nextInt();
+//        int[] a=new int[n];
+//        for(int i=0;i<n;i++)
+//            a[i]=s.nextInt();
+//        int amount=s.nextInt();
+        int[] a={1,3,5};
+        int amount =6;
+//        coinCombination(a,amount,"",0);
+        coinPermutation(a,amount,"");
 
     }
 
@@ -19,6 +22,7 @@ public class infiniteCoin {
             System.out.println(ans);
             return;
         }
+        System.out.println(ans);
         for(int i=0;i<a.length;i++)
         {
             if(amount>=a[i]) {
