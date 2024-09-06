@@ -1,4 +1,4 @@
-package Arrays;
+package BinarySearch;
 
 public class gasStation {
     public static void main(String[] args) {
